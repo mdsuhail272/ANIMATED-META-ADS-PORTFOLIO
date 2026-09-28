@@ -17,19 +17,23 @@
 
     <div class="content-wrapper">
         <header class="navbar">
-            <div class="logo">
+            <a href="#home" class="logo">
                 <span class="logo-icon">&lt;/&gt;</span> Mohammed Suhail
-            </div>
-            <nav class="nav-links">
-                <a href="#home" class="active">Home</a>
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#experience">Experience</a>
-                <a href="#projects">Projects</a>
-                <a href="#blog">Blog</a>
-                <a href="#contact">Contact</a>
+            </a>
+            <nav class="nav-links" id="nav-links">
+                <a href="#home" class="nav-item active">Home</a>
+                <a href="#about" class="nav-item">About</a>
+                <a href="#skills" class="nav-item">Skills</a>
+                <a href="#projects" class="nav-item">Projects</a>
+                <a href="#contact" class="nav-item">Contact</a>
+                <a href="#contact" class="btn btn-outline mobile-hire-btn nav-item">Hire Me <i class="fa-solid fa-arrow-right"></i></a>
             </nav>
-            <a href="#contact" class="btn btn-outline">Hire Me <i class="fa-solid fa-arrow-right"></i></a>
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-outline desktop-hire-btn">Hire Me <i class="fa-solid fa-arrow-right"></i></a>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
         </header>
 
         <main>
